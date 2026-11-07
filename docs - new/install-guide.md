@@ -141,11 +141,7 @@ Expect this to take several minutes. It downloads Frappe and installs its Python
 What it creates:
 - `env/`: the Python virtual environment.
 - `apps/frappe/`: the Frappe framework.
-<<<<<<< HEAD
 - `sites/`: one folder per site. A site is one running copy of the installed apps, with its own database, uploaded files, settings, and web address (for example `dev.localhost`). `bench new-site` creates it.
-=======
-- `sites/`: one folder per site, created later.
->>>>>>> 8aef0931c668f1bcbe4c313d7c2186856078584b
 - `config/`, `logs/`: configuration and logs.
 
 ---
